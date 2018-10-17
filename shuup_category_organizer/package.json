@@ -1,0 +1,38 @@
+{
+    "name": "shuup-category-organizer",
+    "version": "1.0.0",
+    "description": "Shuup Category Organizer",
+    "main": "static_src/index.js",
+    "scripts": {
+        "watch": "node build_resources --watch",
+        "build": "node build_resources"
+    },
+    "shuup": {
+        "static_build": true
+    },
+    "keywords": [
+        "shuup",
+        "category",
+        "organizer"
+    ],
+    "author": "Shuup Team <shuup@shuup.com>",
+    "license": "OSL-3.0",
+    "homepage": "https://github.com/shuup/shuup-category-organizer",
+    "private": true,
+    "dependencies": {
+        "autoprefixer": "^8.6.4",
+        "babel-preset-env": "^1.7.0",
+        "lodash.debounce": "^4.0.8",
+        "parcel-bundler": "^1.9.7",
+        "postcss-modules": "^1.1.0",
+        "sass": "^1.14.2",
+        "shuup-static-build-tools": "^1.0.2"
+    },
+    "browsertlist": [
+        "> 1%",
+        "last 5 versions"
+    ],
+    "devDependencies": {
+        "babel-core": "^6.26.3"
+    }
+}

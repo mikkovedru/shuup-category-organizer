@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-19 13:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Categories"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Create New"
+msgstr ""
+
+msgid "Organize categories"
+msgstr ""
+
+msgid "Categories saved"
+msgstr ""
+
+msgid "Payload is missing from the request"
+msgstr ""
+
+msgid "Category doesn't exist"
+msgstr ""
+
+msgid "Organize"
+msgstr ""
+
+msgid "Organize your categories in a easy way"
+msgstr ""
+
+msgid "Drag and drop categories to sort and change the hierarchy."
+msgstr ""
+
+msgid ""
+"You can also edit, duplicate and the visibility of the categories through "
+"action buttons."
+msgstr ""
+
+msgid "Make sure to Save to apply the changes."
+msgstr ""
+
+msgid "Sorry, this view is not supported on small screen devices."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Show in Menu"
+msgstr ""
+
+msgid "Hide from Menu"
+msgstr ""

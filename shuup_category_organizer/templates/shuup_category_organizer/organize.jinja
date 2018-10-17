@@ -1,0 +1,36 @@
+{% extends "shuup/admin/base.jinja" %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="content-block" id="categories-organizer-list">
+                <div class="d-none d-md-block d-lg-block d-xl-block">
+                    <h3>{% trans %}Organize your categories in a easy way{% endtrans %}</h3>
+                    <ul>
+                        <li>{% trans %}Drag and drop categories to sort and change the hierarchy.{% endtrans %}</li>
+                        <li>{% trans %}You can also edit, duplicate and the visibility of the categories through action buttons.{% endtrans %}</li>
+                        <li>{% trans %}Make sure to Save to apply the changes.{% endtrans %}</li>
+                    </ul>
+                    {% include "shuup_category_organizer/organize_partial.jinja" with context %}
+                </div>
+                <div class="d-lg-none">
+                    <div class="text-center text-muted"><i class="fa fa-mobile fa-3x"></i></div>
+                    <div class="text-center"><i class="fa fa-warning"></i> {% trans %}Sorry, this view is not supported on small screen devices.{% endtrans %}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<link href="{{ static('shuup_category_organizer/shuup_category_organizer.css') }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    window.quickAddCategoryUrl = "{{ url('shuup_admin:category.new') }}";
+</script>
+<script src="{{ static('shuup_category_organizer/shuup_category_organizer.js') }}"></script>
+{% endblock %}

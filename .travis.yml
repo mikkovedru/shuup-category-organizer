@@ -1,0 +1,16 @@
+sudo: false
+language: python
+cache: pip
+python:
+  - "3.6"
+install:
+  - pip install -U pip setuptools
+  - pip install codecov
+  - pip install shuup
+  - pip install -r requirements-test.txt
+script:
+  - flake8 shuup_category_organizer/
+  - isort --check-only
+  - py.test -ra -vvv --nomigrations shuup_category_organizer_tests --cov shuup_category_organizer
+after_success:
+  - codecov
