@@ -1,0 +1,11 @@
+include README.rst
+include LICENSE
+
+recursive-include shuup_category_organizer \
+    *.jinja *.txt *.js *.css *.json *.less *.map \
+    *.ico *.png *.svg *.jpg \
+    *.woff *.woff2 *.eot *.otf *.ttf *.po *.mo
+
+prune shuup_category_organizer/node_modules
+prune shuup_category_organizer/*/node_modules
+prune shuup_category_organizer/*/*/node_modules
