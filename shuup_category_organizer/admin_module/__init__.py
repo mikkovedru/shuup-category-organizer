@@ -21,13 +21,13 @@ class CategoryOrganizerModule(AdminModule):
     def get_urls(self):
         return [
             admin_url(
-                "^categories/organize/$",
+                r"^categories/organize/$",
                 "shuup_category_organizer.admin_module.views.CategoryOrganizeView",
                 name="category.organize",
                 permissions=get_default_model_permissions(Category)
             ),
             admin_url(
-                "^categories/(?P<pk>\d+)/duplicate/$",
+                r"^categories/(?P<pk>\d+)/duplicate/$",
                 "shuup_category_organizer.admin_module.views.CategoryDuplicateView",
                 name="category.duplicate",
                 permissions=get_default_model_permissions(Category)
