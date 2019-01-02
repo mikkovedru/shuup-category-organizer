@@ -2,7 +2,7 @@
     "name": "shuup-category-organizer",
     "version": "1.0.0",
     "description": "Shuup Category Organizer",
-    "main": "static_src/index.js",
+    "main": "build_resources.js",
     "scripts": {
         "watch": "node build_resources --watch",
         "build": "node build_resources"
@@ -21,9 +21,10 @@
     "private": true,
     "dependencies": {
         "autoprefixer": "^8.6.4",
+        "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0",
         "lodash.debounce": "^4.0.8",
-        "parcel-bundler": "^1.9.7",
+        "parcel-bundler": "^1.10.3",
         "postcss-modules": "^1.1.0",
         "sass": "^1.14.2",
         "shuup-static-build-tools": "^1.0.2"
@@ -31,8 +32,5 @@
     "browsertlist": [
         "> 1%",
         "last 5 versions"
-    ],
-    "devDependencies": {
-        "babel-core": "^6.26.3"
-    }
+    ]
 }
