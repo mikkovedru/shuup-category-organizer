@@ -26,7 +26,7 @@
         "lodash.debounce": "^4.0.8",
         "parcel-bundler": "^1.10.3",
         "postcss-modules": "^1.1.0",
-        "sass": "^1.14.2",
+        "sass": "^1.15.1",
         "shuup-static-build-tools": "^1.0.2"
     },
     "browsertlist": [
