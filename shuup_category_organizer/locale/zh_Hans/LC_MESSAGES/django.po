@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Jiechao Li <jiechao.li@sesamechat.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-12 23:50+0000\n"
+"PO-Revision-Date: 2019-03-12 23:51+0000\n"
+"Last-Translator: Jiechao Li <jiechao.li@sesamechat.com>, 2019\n"
+"Language-Team: Chinese (Mandarin) (https://www.transifex.com/shuup/teams/55306/cmn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cmn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Category Organizer"
+msgstr "类别组织者"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Create New"
+msgstr "新建"
+
+msgid "Organize categories"
+msgstr "组织类别"
+
+msgid "Categories saved"
+msgstr "类别保存"
+
+msgid "Payload is missing from the request"
+msgstr "请求中缺少有效负载。"
+
+msgid "Category doesn't exist"
+msgstr "类别不存在"
+
+msgid "Organize"
+msgstr "组织"
+
+msgid "Organize your categories in a easy way"
+msgstr "用一种简单的方式组织你的分类"
+
+msgid "Drag and drop categories to sort and change the hierarchy."
+msgstr "拖放类别以排序和更改层次结构。"
+
+msgid ""
+"You can also edit, duplicate and the visibility of the categories through "
+"action buttons."
+msgstr "您还可以通过操作按钮编辑、复制和查看类别。"
+
+msgid "Make sure to Save to apply the changes."
+msgstr "确保保存以应用更改。"
+
+msgid "Sorry, this view is not supported on small screen devices."
+msgstr "抱歉，小屏幕设备不支持此视图。"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Duplicate"
+msgstr "复制"
+
+msgid "Show in Menu"
+msgstr "在菜单中显示"
+
+msgid "Hide from Menu"
+msgstr "从菜单中隐藏"
