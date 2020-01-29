@@ -84,10 +84,10 @@ class CategoryOrganizeView(BaseCategoryView):
             Category.objects.rebuild()
 
             if not request.is_ajax():
-                messages.success(request, _("Categories saved"))
+                messages.success(request, _("Categories saved."))
         else:
             if not request.is_ajax():
-                messages.error(request, _("Payload is missing from the request"))
+                messages.error(request, _("Payload is missing from the request."))
 
         return self.get(request)
 
@@ -99,7 +99,7 @@ class CategoryDuplicateView(BaseCategoryView):
         category = Category.objects.filter(shops=get_shop(request), pk=kwargs["pk"]).first()
 
         if not category:
-            raise Http404(_("Category doesn't exist"))
+            raise Http404(_("Category doesn't exist."))
 
         new_category = Category.objects.create(
             parent=category.parent,

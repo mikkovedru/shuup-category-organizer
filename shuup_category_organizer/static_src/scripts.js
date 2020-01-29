@@ -206,7 +206,7 @@ window.saveCategories = function () {
     addLoader();
     saveCategories(true, () => {
         $("#loader").remove();
-        Messages.enqueue({ tags: "success", text: gettext("Categories saved") });
+        Messages.enqueue({ tags: "success", text: gettext("Success! Categories were saved.") });
     });
 };
 
